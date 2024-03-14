@@ -1,5 +1,14 @@
 version = 1
 
 [[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
 name = "dart-analyze"
 type = "community"
